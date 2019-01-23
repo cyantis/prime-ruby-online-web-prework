@@ -7,5 +7,5 @@ def prime?(i)
         break
     end
   end
-  return true
+  true
 end
