@@ -9,6 +9,6 @@ def prime?(i)
       else
         divisor += 1
       end
+    true
   end
-  true
 end
