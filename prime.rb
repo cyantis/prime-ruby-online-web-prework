@@ -1,7 +1,8 @@
 def prime?(i)
-  counter = (i..0).to_a
+  counter = (0..i).to_a
+  counter_rev = counter_rev.reverse
   while i > 0
-    counter.each do |divisor|
+    counter_rev.each do |divisor|
       if i % divisor == 0
         false
         break
