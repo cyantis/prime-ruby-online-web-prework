@@ -5,6 +5,8 @@ def prime?(i)
       if i % divisor == 0
         false
         break
+      else
+        divisor += 1
     end
   end
   true
