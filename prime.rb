@@ -8,7 +8,7 @@ def prime?(i)
         break
       else
         divisor += 1
-    end
+      end
   end
   true
 end
