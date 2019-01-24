@@ -1,12 +1,12 @@
 def prime?(i)
-  counter = (0...i).to_a
-  counter_rev = counter_rev.reverse
-    counter_rev.each do |divisor|
-      if i % divisor == 0
-        false
+  counter = (2...i).to_a
+    counter.each do |item|
+      if i % item == 0
+        return false
         break
       else
-        divisor += 1
+        item +=1
       end
-    true
+    end
+  i < 0 || i == 0 || i == 1 ? false : true
 end
